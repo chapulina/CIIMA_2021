@@ -144,16 +144,16 @@
         <keyframe type='cam_pose' pose="9.23 6.9 2.85 0 0.46 2.9"/>
         <keyframe type='lookat' visual='slide-0' eye_offset="0 -1.2 0 0 0 1.57"/>
         <keyframe type='lookat' visual='slide-1' eye_offset="0 -1.2 0 0 0 1.57"/>
-        <keyframe type='lookat' visual='slide-2' eye_offset="0 -1.2 0.3 0 0 1.57"/>
-        <keyframe type='lookat' visual='slide-3' eye_offset="0 -1.2 0 0 0 1.57"/>
+        <keyframe type='stack' visual='slide-2' eye_offset="0 -1.2 0.0 0 0 1.57"/>
+        <keyframe type='stack' visual='slide-3' eye_offset="0 -1.2 0 0 0 1.57"/>
         <keyframe type='lookat' visual='slide-4' eye_offset="0 -1.2 -0.3 0 0 1.57"/>
-        <keyframe type='lookat' visual='slide-5' eye_offset="0 -1.2 0 0 0 1.57"/>
+        <keyframe type='stack' visual='slide-5' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-6' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-7' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-8' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-9' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-10' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
-        <keyframe type='stack' visual='slide-11' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
+        <keyframe type='lookat' visual='slide-11' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-12' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-13' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
         <keyframe type='stack' visual='slide-14' eye_offset="0 -0.5 -0.05 0 0 1.57"/>
@@ -262,7 +262,7 @@
     </model>
 
     <model name='slide-2'>
-      <pose>1.46 -8.16 3.59 0 0 0</pose>
+      <pose>7.7 1.52 3.6 0 0 2.81</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -314,7 +314,7 @@
     </model>
 
     <model name='slide-4'>
-      <pose>7.7 1.52 10 0.04 0 -1.57</pose>
+      <pose>1.46 -8.16 3.59 0 0 0</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -340,7 +340,7 @@
     </model>
 
     <model name='slide-5'>
-      <pose>5.79 1.95 3.6 0 0 3.10</pose>
+      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -348,7 +348,7 @@
           <cast_shadows>0</cast_shadows>
           <geometry>
             <box>
-              <size>1.0 0.001 0.54</size>
+              <size>0.5 0.001 0.27</size>
             </box>
           </geometry>
           <material>
@@ -474,7 +474,7 @@
     </model>
 
     <model name='slide-10'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>5.79 1.95 3.6 0 0 3.10</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -501,7 +501,7 @@
     </model>
 
     <model name='slide-11'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>7.7 1.52 10 0.04 0 -1.57</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -528,7 +528,7 @@
     </model>
 
     <model name='slide-12'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>3.08 -3.08 0.87 0 0 -3.14</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -555,7 +555,7 @@
     </model>
 
     <model name='slide-13'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>3.08 -3.08 0.87 0 0 -3.14</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -582,7 +582,7 @@
     </model>
 
     <model name='slide-14'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>3.08 -3.08 0.87 0 0 -3.14</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -609,7 +609,7 @@
     </model>
 
     <model name='slide-15'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>3.08 -3.08 0.87 0 0 -3.14</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
@@ -636,7 +636,7 @@
     </model>
 
     <model name='slide-16'>
-      <pose>3.248 9.52 0.375 0 0 -2.38</pose>
+      <pose>3.08 -3.08 0.87 0 0 -3.14</pose>
       <static>1</static>
       <link name='link'>
         <pose>0 0 0.45 0 0 0</pose>
